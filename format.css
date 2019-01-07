@@ -15,7 +15,7 @@
 }
 
 #side-header{
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-weight: 500;
   font-stretch: expanded;
@@ -35,6 +35,9 @@
   float: left;
   width : 40em;
   height : 60em;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0px 20px 0px 20px;
 }
 
 #main-header{
