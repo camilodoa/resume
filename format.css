@@ -2,7 +2,7 @@
   display: block;
   background-color: #D3D3D3;
   float: left;
-  width : 12em;
+  width : 14em;
   height : 60em;
 }
 
@@ -33,7 +33,7 @@
 #main{
   display: block;
   float: left;
-  width : 40em;
+  width : 45em;
   height : 60em;
   margin-left: 100px;
   margin-right: 100px;
