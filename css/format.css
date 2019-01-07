@@ -70,7 +70,7 @@
 
 #date{
   display: inline-block;
-  float: left;
+  float: right;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-stretch: expanded;
@@ -81,7 +81,6 @@
 
 #place{
   display: inline-block;
-  float: left;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-stretch: expanded;
