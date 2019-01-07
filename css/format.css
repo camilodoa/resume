@@ -91,6 +91,7 @@
 #block{
   display: inline-block;
   float: left;
+  width: inherit;
 }
 
 
@@ -105,8 +106,8 @@
 
 .mainblock{
   clear: both;
-
 }
+
 
 .link{
   color: #0645AD;
