@@ -1,7 +1,14 @@
 #sidebar{
-  display: inline-block;
+  display: block;
+  background-color: #D3D3D3;
+  width : 12em;
+  height : 40em;
+  float: left;
 }
 
 #main{
-  display: inline-block;
+  display: block;
+  width : 48em;
+  height : 40em;
+  float: left;
 }
