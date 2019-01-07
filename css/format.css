@@ -4,7 +4,7 @@
   float: left;
   width : 12em;
   height : 60em;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 10px;
 }
 
 #side-list{
@@ -30,7 +30,7 @@
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
   vertical-align: baseline;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 5px 0px 5px;
 }
 
 #main{
@@ -38,7 +38,7 @@
   float: left;
   width : 45em;
   height : 60em;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 5px 0px 5px;
 }
 
 #main-header{
@@ -114,7 +114,7 @@
 }
 
 div{
-  padding: 5px 10px 5px 10px;
+  padding: 5px 5px 5px 5px;
   display: inline-block;
     }
 
