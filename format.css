@@ -29,7 +29,7 @@
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
-
+  vertical-align: baseline;
 }
 
 #main{
