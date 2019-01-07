@@ -23,7 +23,7 @@
 }
 
 #title{
-  text-align: center;
+  text-align: left;
   font-size: 2em;
   font-weight: 500;
   font-stretch: expanded;
@@ -38,14 +38,14 @@
 }
 
 #main-header{
-  text-align: center;
+  text-align: left;
   font-size: 1.5em;
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
 }
 #sub-main-header{
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-weight: 500;
   font-stretch: expanded;
