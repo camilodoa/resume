@@ -42,14 +42,14 @@
 
 #main-header{
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
 }
 #sub-main-header{
   text-align: left;
-  font-size: 1.2em;
+  font-size: .8em;
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
@@ -62,7 +62,7 @@
   font-weight: 300;
   font-stretch: expanded;
   line-height: 1.5;
-  font-size: 1em;
+  font-size: .6em;
 }
 
 
@@ -80,11 +80,6 @@
 #block{
   display: inline-block;
   float: left;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-stretch: expanded;
-  line-height: 1.5;
-  font-size: 1em;
 }
 
 
