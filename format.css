@@ -28,6 +28,7 @@
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 #main{
@@ -86,3 +87,8 @@
   font-size: 1em;
   text-align: center;
 }
+
+div{
+  padding: 15px 20px 15px 20px;
+  display: inline-block;
+    }
