@@ -1,4 +1,6 @@
 # my resume
-Personal resume made in HTML and CSS
+Personal resume!
 
-*under construction
+Found at https://camilodoa.tk/resume
+
+*under construction*
