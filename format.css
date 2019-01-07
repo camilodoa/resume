@@ -1,14 +1,29 @@
 #sidebar{
   display: block;
   background-color: #D3D3D3;
-  width : 12em;
-  height : 40em;
+
   float: left;
 }
 
 #main{
   display: block;
-  width : 48em;
-  height : 40em;
+
   float: left;
+}
+
+.date{
+  display: block;
+  float: left;
+}
+
+.info{
+  display: block;
+  float: left;
+}
+
+.sideblock{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
 }
