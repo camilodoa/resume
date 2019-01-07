@@ -74,7 +74,7 @@
   font-weight: 400;
   font-stretch: expanded;
   line-height: 1.5;
-  font-size: .8em;
+  font-size: .6em;
 }
 
 #block{
@@ -90,6 +90,11 @@
   line-height: 1.5;
   font-size: 1em;
   text-align: center;
+}
+
+.mainblock{
+  clear: both;
+
 }
 
 div{
