@@ -5,7 +5,7 @@
   width : 14em;
   height : 73em;
   padding: 10px 20px 0px 30px;
-  /*-webkit-print-color-adjust: exact;*/
+  -webkit-print-color-adjust: exact;
 }
 
 .side-list{
