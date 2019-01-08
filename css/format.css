@@ -71,7 +71,8 @@
   list-style: none;
   padding-left: 0;
   list-style-position: inside;
-  color: #D3D3D3
+  color: #808080;
+  font-style: italic;
 }
 
 #info{
