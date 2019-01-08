@@ -2,7 +2,7 @@
   display: block;
   background-color: #D3D3D3;
   float: left;
-  width : 12em;
+  width : 13em;
   height : 72em;
   padding: 0px 20px 0px 30px;
   /*-webkit-print-color-adjust: exact;*/
@@ -50,7 +50,7 @@
   float: left;
   width : 35em;
   height : 55em;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 30px;
 }
 
 #main-header{
