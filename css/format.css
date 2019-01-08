@@ -13,6 +13,8 @@
   font-stretch: expanded;
   line-height: 1.5;
   font-size: .6em;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 #side-header{
@@ -45,6 +47,8 @@
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 #sub-main-header{
@@ -55,6 +59,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   list-style: none;
   padding-left: 0;
+  list-style-position: inside;
 }
 
 #info{
@@ -65,6 +70,8 @@
   font-stretch: expanded;
   line-height: 1.5;
   font-size: .6em;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 
@@ -120,8 +127,3 @@ div{
   padding: 5px 0px 5px 0px;
   display: inline-block;
     }
-
-ul {
-  list-style-position: inside;
-  padding-left: 0;
-}
