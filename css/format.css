@@ -1,4 +1,4 @@
-#sidebar{
+.sidebar{
   display: block;
   background-color: #F5F5F5;
   float: left;
@@ -8,7 +8,7 @@
   /*-webkit-print-color-adjust: exact;*/
 }
 
-#side-list{
+.side-list{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-stretch: expanded;
@@ -19,7 +19,7 @@
   list-style: none;
 }
 
-#side-list-italics{
+.side-list-italics{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-stretch: expanded;
@@ -29,7 +29,7 @@
   font-style: italic;
 }
 
-#side-header{
+.side-header{
   text-align: left;
   font-size: 1em;
   font-weight: 500;
@@ -37,7 +37,7 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#title{
+.title{
   text-align: left;
   font-size: 2em;
   font-weight: 500;
@@ -45,7 +45,7 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#main{
+.main{
   display: block;
   float: left;
   width : 35em;
@@ -53,7 +53,7 @@
   padding: 0px 20px 0px 30px;
 }
 
-#main-header{
+.main-header{
   text-align: left;
   font-size: 1em;
   font-weight: 500;
@@ -63,7 +63,7 @@
   padding-left: 0;
 }
 
-#sub-main-header{
+.sub-main-header{
   text-align: left;
   font-size: .8em;
   font-weight: 500;
@@ -74,7 +74,7 @@
   list-style-position: inside;
 }
 
-#sub-main-header-location{
+.sub-main-header-location{
   font-size: .8em;
   font-weight: 500;
   font-stretch: expanded;
@@ -86,7 +86,7 @@
   font-style: italic;
 }
 
-#info{
+.info{
   display: inline-block;
   float: left;
   font-family: 'Open Sans', sans-serif;
@@ -97,7 +97,7 @@
 
 }
 
-#date{
+.date{
   display: inline-block;
   float: right;
   font-family: 'Open Sans', sans-serif;
@@ -107,7 +107,7 @@
   font-size: .6em;
 }
 
-#place{
+.place{
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
@@ -117,7 +117,7 @@
   float: left
 }
 
-#block{
+.block{
   display: inline-block;
   float: left;
   width : 35em;
