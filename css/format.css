@@ -2,8 +2,8 @@
   display: block;
   background-color: #D3D3D3;
   float: left;
-  width : 13em;
-  height : 70em;
+  width : 14em;
+  height : 71em;
   padding: 0px 20px 0px 30px;
   /*-webkit-print-color-adjust: exact;*/
 }
@@ -131,7 +131,7 @@
   line-height: 1.5;
   font-size: 1em;
   text-align: center;
-  padding: 15px 0px 15px 20px;
+  padding: 15px 0px 15px 30px;
 }
 
 .mainblock{
