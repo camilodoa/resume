@@ -1,10 +1,10 @@
 #sidebar{
   display: block;
-  background-color: #D3D3D3;
+  background-color: #DCDCDC;
   float: left;
   width : 14em;
   height : 73em;
-  padding: 0px 20px 0px 30px;
+  padding: 0px 25px 0px 30px;
   /*-webkit-print-color-adjust: exact;*/
 }
 
