@@ -23,7 +23,7 @@
   font-weight: 300;
   font-stretch: expanded;
   line-height: 1.5;
-  font-size: 1em;
+  font-size: 2em;
   color: #585858;
   font-style: italic;
 }
@@ -48,7 +48,7 @@
   display: block;
   float: left;
   width : 35em;
-  height : 60em;
+  height : 55em;
   padding: 0px 5px 0px 5px;
 }
 
