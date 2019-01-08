@@ -70,8 +70,7 @@
   font-stretch: expanded;
   line-height: 1.5;
   font-size: .6em;
-  list-style-position: inside;
-  padding-left: 0;
+
 }
 
 
@@ -80,7 +79,7 @@
   display: inline-block;
   float: right;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-stretch: expanded;
   line-height: 1.5;
   font-size: .6em;
@@ -89,7 +88,7 @@
 #place{
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-stretch: expanded;
   line-height: 1.5;
   font-size: .6em;
