@@ -1,6 +1,6 @@
 #sidebar{
   display: block;
-  background-color: #F5F5F5;
+  background-color: #F5F5F5 !important;
   float: left;
   width : 14em;
   height : 73em;
