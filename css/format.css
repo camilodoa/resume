@@ -3,7 +3,7 @@
   background-color: #D3D3D3;
   float: left;
   width : 12em;
-  height : 60em;
+  height : 70em;
   padding: 0px 10px 0px 10px;
 }
 
@@ -23,8 +23,7 @@
   font-weight: 300;
   font-stretch: expanded;
   line-height: 1.5;
-  font-size: .6em;
-
+  font-size: .9em;
   color: #585858;
   font-style: italic;
 }
