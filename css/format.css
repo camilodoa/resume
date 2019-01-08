@@ -46,12 +46,15 @@
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 #sub-main-header{
   text-align: left;
   font-size: .8em;
   font-weight: 500;
   font-stretch: expanded;
   font-family: 'Source Sans Pro', sans-serif;
+  list-style: none;
+  padding-left: 0;
 }
 
 #info{
@@ -100,7 +103,7 @@
   line-height: 1.5;
   font-size: 1em;
   text-align: center;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 30px 0px 30px;
 }
 
 .mainblock{
