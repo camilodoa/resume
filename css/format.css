@@ -36,7 +36,7 @@
 #main{
   display: block;
   float: left;
-  width : 40em;
+  width : 35em;
   height : 60em;
   padding: 0px 5px 0px 5px;
 }
@@ -91,7 +91,7 @@
 #block{
   display: inline-block;
   float: left;
-  width : 40em;
+  width : 35em;
 }
 
 
@@ -115,7 +115,7 @@
 }
 
 div{
-  padding: 5px 5px 5px 5px;
+  padding: 5px 0px 5px 0px;
   display: inline-block;
     }
 
