@@ -6,7 +6,6 @@
   height : 104em;
   padding: 10px 20px 0px 30px;
   -webkit-print-color-adjust: exact !important;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -50,11 +49,10 @@
 }
 
 #main{
-  display: block;
-  float: right;
-  width : 43em;
+  left: 14em;
+  width : auto;
   height : 97em;
-
+  padding-left: 270px;
 }
 
 #main-header{
