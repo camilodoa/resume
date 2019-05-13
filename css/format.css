@@ -50,12 +50,11 @@
 }
 
 #main{
-  top: 0;
   display: block;
   float: right;
-  width : 35em;
+  width : 43em;
   height : 97em;
-  padding: 0px 20px 0px 30px;
+
 }
 
 #main-header{
