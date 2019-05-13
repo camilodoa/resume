@@ -6,8 +6,10 @@
   height : 104em;
   padding: 10px 20px 0px 30px;
   -webkit-print-color-adjust: exact !important;
-  position: -webkit-sticky; /* Required for Safari */
-  position: sticky;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #side-list{
