@@ -22,6 +22,16 @@
   list-style: none;
 }
 
+#side-list-style{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-stretch: expanded;
+  line-height: 1.5;
+  list-style-position: inside;
+  padding-left: 0;
+  font-size: .6em;
+}
+
 #side-list-italics{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
