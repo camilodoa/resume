@@ -3,7 +3,7 @@
   background-color: #F5F5F5 !important;
   float: left;
   width : 14em;
-  height : 104em;
+  height : 65em;
   padding: 10px 20px 0px 30px;
   -webkit-print-color-adjust: exact !important;
   position: fixed;
@@ -30,6 +30,7 @@
   list-style-position: inside;
   padding-left: 0;
   font-size: .6em;
+  list-style-type: circle;
 }
 
 #side-list-italics{
@@ -61,7 +62,7 @@
 #main{
   left: 14em;
   width : auto;
-  height : 97em;
+  height : 65em;
   padding-left: 270px;
 }
 
@@ -106,7 +107,10 @@
   font-stretch: expanded;
   line-height: 1.5;
   font-size: .6em;
+}
 
+.info-list{
+  margin: .5em 0;
 }
 
 #date{
