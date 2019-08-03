@@ -112,6 +112,9 @@
 .info-list{
   margin: .5em 0;
 }
+.info-list-side{
+  margin: .2em 0;
+}
 
 #date{
   display: inline-block;
