@@ -1,4 +1,3 @@
-# Resume
-Personal resume!
+# resume
 
-Found at https://camilodoa.ml/resume
+my resume
