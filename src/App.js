@@ -144,7 +144,7 @@ export default function App() {
             <Col sm={12} md={4} lg={2} className='mr-4'>
               <Image alt='me' src={me} roundedCircle className='profile m-1'/>
             </Col>
-            <Col sm={12} md={6} lg={5} className='ml-2'>
+            <Col sm={12} md={8} lg={8} className='ml-2'>
               <b className='name m-1'>Camilo Ortiz</b>
             </Col>
           </Row>
