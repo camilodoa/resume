@@ -140,7 +140,7 @@ export default function App() {
         <Col className='full' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
           <Navbar bg='white'>
             <Navbar.Brand href='/resume'>
-              <Image alt='me' src={'../me.jpg'} roundedCircle className='profile d-inline-block m-1'/>
+              <Image alt='me' src={'..resume/me.jpg'} roundedCircle className='profile d-inline-block m-1'/>
               {' '}
               <b className='d-inline-block name m-1'>Camilo Ortiz</b>
             </Navbar.Brand>
