@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Image, Navbar} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
 import SideBlock from './components/SideBlock';
 import MainBlock from './components/MainBlock';
 import me from './me.jpg';
