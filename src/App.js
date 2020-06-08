@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Row, Col, Image, Navbar} from 'react-bootstrap';
 import SideBlock from './components/SideBlock';
 import MainBlock from './components/MainBlock';
+import me from './me.jpg';
 
 export default function App() {
   const sideData = [
@@ -132,22 +133,28 @@ export default function App() {
   return (
     <Container fluid>
       <Row>
-        <Col className='aside full pt-4' lg={{span : 3, order : 1}} md={{span : 4, order : 1}} sm={{span : 12, order : 12}} xs={{span : 12, order : 12}}>
+        <Col className='aside full pt-2' lg={{span : 3, order : 1}} md={{span : 4, order : 1}} sm={{span : 12, order : 12}} xs={{span : 12, order : 12}}>
           {sideData.map((elem, index) => (
             <SideBlock title={elem['title']} list={elem['list']} key={'SideBlock' + index}/>
           ))}
         </Col>
-        <Col className='full' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
-          <Navbar bg='white'>
-            <Navbar.Brand href='/resume'>
-              <Image alt='me' src={'../me.jpg'} roundedCircle className='profile d-inline-block m-1'/>
-              {' '}
-              <b className='d-inline-block name m-1'>Camilo Ortiz</b>
-            </Navbar.Brand>
-          </Navbar>
+        <Col className='full pt-2' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
+
+          <Row className="align my-2">
+            <Col sm={12} md={4} lg={2} className='mr-4'>
+              <Image alt='me' src={me} roundedCircle className='profile m-1'/>
+            </Col>
+            <Col sm={12} md={6} lg={5} className='ml-2'>
+              <b className='name m-1'>Camilo Ortiz</b>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
             {mainData.map((item, index) => (
               <MainBlock header={item['header']} experiences={item['experiences']} key={'MainBlock' + index}/>
             ))}
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
