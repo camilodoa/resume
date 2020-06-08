@@ -8,10 +8,10 @@ export default function App() {
     {title : 'Contact',
     list : ['Chicago, IL',
       <a href='mailto:camilodortiz@gmail.com'>camilodortiz@gmail.com</a>,
-      <a href='https://camilodoa.ml'>camilodoa.ml</a>, 
+      <a href='https://camilodoa.ml'>camilodoa.ml</a>,
       <a href='https://www.linkedin.com/in/camilodortiz/'>linkedin.com/in/camilodortiz/</a>,
       <a href='https://github.com/camilodoa'>github.com/camilodoa</a>]},
-    {title : 'Projects', 
+    {title : 'Projects',
     list : [<a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
       <a href='https://github.com/camilodoa/deig'>Deep Evolutionary Image Generation</a>,
       <a href='https://lunarbaby.ml'>Lunar Baby</a>]},
@@ -29,7 +29,7 @@ export default function App() {
       {title : 'Amherst College',
       subtitle : 'Bachelor of Arts in Computer Science',
       location : 'Amherst, MA, USA',
-      date : 'Class of 2020', 
+      date : 'Class of 2020',
       list : [
         <div>Major GPA: 3.96</div>,
         <div>Cumulative GPA: 3.56</div>,
@@ -38,7 +38,7 @@ export default function App() {
         <div>Relevant Coursework (Physics): Modern Physics, Signals and Noise Lab, Statistical Mechanics and Thermodynamics</div>
       ]}
     ]},
-    {header : 'Experience', 
+    {header : 'Experience',
     experiences : [
       {title : 'Assistant Researcher',
       subtitle : 'University of Oxford, Department of Computer Science',
@@ -58,10 +58,10 @@ export default function App() {
         <div>
           Front end facilitated selecting a database schema,
           writing/selecting an SQL query, and generating, running,
-          and exporting the most efficient query-plans.            
+          and exporting the most efficient query-plans.
         </div>
       ]},
-      {title : 'Summer Undergraduate Research Fellow', 
+      {title : 'Summer Undergraduate Research Fellow',
       subtitle : 'Amherst College, Department of Physics',
       location : 'Amherst, MA, USA',
       date : 'Summer 2018',
@@ -80,7 +80,7 @@ export default function App() {
         </div>,
         <div>
             Related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature.
-        </div>    
+        </div>
       ]},
       {title : 'Curatorial Intern',
       subtitle : 'Mead Art Museum',
@@ -140,7 +140,7 @@ export default function App() {
         <Col className='full' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
           <Navbar bg='white'>
             <Navbar.Brand href='/'>
-              <Image alt='me' src={'../me.jpg'} roundedCircle className='profile d-inline-block m-1'/> 
+              <Image alt='me' src={'../me.jpg'} roundedCircle className='profile d-inline-block m-1'/>
               {' '}
               <b className='d-inline-block name m-1'>Camilo Ortiz</b>
             </Navbar.Brand>
