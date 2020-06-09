@@ -56,7 +56,7 @@ export default function App() {
           writing an SQL query, and generating, running,
           and exporting optimal query-plans.
         </div>,
-        <div>Made with React and Spring Boot.</div>
+        <div>It was made with React and Spring Boot.</div>
       ]},
       {title : 'Summer Undergraduate Research Fellow',
       subtitle : 'Amherst College, Department of Physics',
@@ -71,7 +71,7 @@ export default function App() {
           in a Bose-Einstein Condensate machine.
         </div>,
         <div>
-            Formed topological excitations in the F=1 and F=2 ground states of
+            Formed topological excitations in the F=1 ground state of
             Rubidium 87 condensates using the aforementioned current
             control system.
         </div>,
