@@ -10,7 +10,7 @@ export default function App() {
     list : ['Chicago, IL',
       <a href='mailto:camilodortiz@gmail.com'>camilodortiz@gmail.com</a>,
       <a href='https://camilodoa.ml'>camilodoa.ml</a>,
-      <a href='https://www.linkedin.com/in/camilodortiz/'>linkedin.com/in/camilodortiz/</a>,
+      <a href='https://www.linkedin.com/in/camilodortiz/'>linkedin.com/in/camilodortiz</a>,
       <a href='https://github.com/camilodoa'>github.com/camilodoa</a>]},
     {title : 'Projects',
     list : [<a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
