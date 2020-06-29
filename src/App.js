@@ -1,8 +1,7 @@
 import React from 'react';
-import {Container, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import SideBlock from './components/SideBlock';
 import MainBlock from './components/MainBlock';
-import me from './me.jpg';
 
 export default function App() {
   const sideData = [
@@ -79,27 +78,27 @@ export default function App() {
             Related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature.
         </div>
       ]},
-      {title : 'Curatorial Intern',
-      subtitle : 'Mead Art Museum',
-      location : 'Amherst, MA, USA',
-      date : 'Summer 2018',
-      list : [
-        <div>
-            Collaborated with Mead Art Museum Curator Vanja Malloy
-            on <a href='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</a>.
-        </div>,
-        <div>
-          Researched and wrote labels for more than twenty works shown at
-          the exhibition, which opened both at the Berkeley
-          Art Museum and Pacific Film Archive and at
-          the Mead Art Museum.
-        </div>,
-        <div>
-          <a href="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/?fbclid=IwAR1J25yxGDn2EDGLJJWDLUHb6tJLHjm2PSwitp_lV_VEoD2C1PhFMwzcMcI#34d794b27b0f">
-            Article
-          </a> written by Jonathon Keats for Forbes on the exhibition.
-        </div>
-      ]}
+      // {title : 'Curatorial Intern',
+      // subtitle : 'Mead Art Museum',
+      // location : 'Amherst, MA, USA',
+      // date : 'Summer 2018',
+      // list : [
+      //   <div>
+      //       Collaborated with Mead Art Museum Curator Vanja Malloy
+      //       on <a href='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</a>.
+      //   </div>,
+      //   <div>
+      //     Researched and wrote labels for more than twenty works shown at
+      //     the exhibition, which opened both at the Berkeley
+      //     Art Museum and Pacific Film Archive and at
+      //     the Mead Art Museum.
+      //   </div>,
+      //   <div>
+      //     <a href="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/?fbclid=IwAR1J25yxGDn2EDGLJJWDLUHb6tJLHjm2PSwitp_lV_VEoD2C1PhFMwzcMcI#34d794b27b0f">
+      //       Article
+      //     </a> written by Jonathon Keats for Forbes on the exhibition.
+      //   </div>
+      // ]}
     ]},
     {header : 'Projects',
     experiences : [
@@ -137,9 +136,6 @@ export default function App() {
         <Col className='full pt-2' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
 
           <Row className="align my-2">
-            <Col sm={12} md={4} lg={2} className='mr-4'>
-              <Image alt='me' src={me} roundedCircle className='profile m-1'/>
-            </Col>
             <Col sm={12} md={8} lg={8} className='ml-2'>
               <b className='name m-1'>Camilo Ortiz</b>
             </Col>
