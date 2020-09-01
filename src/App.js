@@ -14,7 +14,7 @@ export default function App() {
     {title : 'Projects',
     list : [<a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
       <a href='https://github.com/camilodoa/deig'>Deep Evolutionary Image Generation</a>,
-      <a href='https://lunarbaby.ml'>Lunar Baby</a>]},
+      <a href='https://ra.rlitb.ml'>Ra</a>]},
     {title : 'Programming Languages',
     list : ['Python', 'JavaScript', 'Java', 'Clojure', 'Brainf*ck']},
     {title : 'Frameworks',
@@ -112,14 +112,14 @@ export default function App() {
           <div>The optimal model used in production was found through an evolutionary process of mutation, recombination, and assessment.</div>,
           <div>It's <a href='https://github.com/camilodoa/ai-melts-ice'>open source</a>.</div>
         ]},
-        {title : <a href='https://lunarbaby.ml'>Lunar Baby</a>,
+        {title : <a href='https://ra.rlitb.ml'>Ra</a>,
         subtitle: 'JavaScript',
         location : 'Amherst, MA, USA',
         date : 'Spring 2020',
         list : [
-          <div><a href='https://lunarbaby.ml'>Ra</a> is a q-learning agent that lives in the browser.</div>,
+          <div><a href='https://ra.rlitb.ml'>Ra</a> is a q-learning agent that lives in the browser.</div>,
           <div>Over time, it learns to approach the concentric circles in the center of its world.</div>,
-          <div>Training environment and agent were created as the first steps for a browser-based RL framework.</div>,
+          <div>Training environment and agent were created as the first steps for a homebrewed browser-based RL framework.</div>,
           <div>It's <a href='https://github.com/camilodoa/ra'>open source</a>.</div>
         ]}
     ]}
