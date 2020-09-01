@@ -119,7 +119,7 @@ export default function App() {
         list : [
           <div><a href='https://ra.rlitb.ml'>Ra</a> is a q-learning agent that lives in the browser.</div>,
           <div>Over time, it learns to approach the concentric circles in the center of its world.</div>,
-          <div>Training environment and agent were created as the first steps for a homebrewed browser-based RL framework.</div>,
+          <div>Training environment and agent were created as the first steps for a series of deep RL agents that learn in the browser.</div>,
           <div>It's <a href='https://github.com/camilodoa/ra'>open source</a>.</div>
         ]}
     ]}
