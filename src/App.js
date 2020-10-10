@@ -136,7 +136,6 @@ export default function App() {
           ))}
         </Col>
         <Col className='full pt-2' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
-
           <Row className="align my-2">
             <Col sm={12} md={8} lg={8} className='ml-2'>
               <b className='name m-1'>Camilo Ortiz</b>
