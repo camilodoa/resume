@@ -20,17 +20,9 @@ ul {
   list-style-position: inside;
 }
 
-a:link {
-  color: #68a6d9;
-}
-
-a:visited {
-  color: #042e5a;
-}
-
-a:hover {
-  color: rgb(41, 88, 105);
-  text-decoration: none;
+a {
+  color: #0059a7;
+  text-decoration: none !important;
 }
 
 .profile {
@@ -50,7 +42,7 @@ a:hover {
 }
 
 .aside {
-  background-color: #F5F5F5;
+  background-color: #e8eef6;
 }
 
 .name {
@@ -74,7 +66,6 @@ a:hover {
 .subtitle {
   font-size: 0.9em;
   font-weight: 500;
-  color: #565753;
 }
 
 .location {

@@ -13,8 +13,8 @@ export default function App() {
       <a href='https://github.com/camilodoa'>github.com/camilodoa</a>]},
     {title : 'Projects',
     list : [<a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
-      <a href='https://github.com/camilodoa/deig'>Deep Evolutionary Image Generation</a>,
-      <a href='https://ra.rlitb.ml'>Ra</a>]},
+      <a href='https://camilodoa.ml/ra'>Ra</a>,
+      <a href='https://camilodoa.ml/dra'>Dra</a>]},
     {title : 'Programming Languages',
     list : ['Python', 'JavaScript', 'Java', 'Clojure', 'Brainf*ck']},
     {title : 'Frameworks',
@@ -112,15 +112,17 @@ export default function App() {
           <div>The optimal model used in production was found through an evolutionary process of mutation, recombination, and assessment.</div>,
           <div>It's <a href='https://github.com/camilodoa/ai-melts-ice'>open source</a>.</div>
         ]},
-        {title : <a href='https://ra.rlitb.ml'>Ra</a>,
+        {title : <a href='https://camilodoa.ml/dra'>Dra</a>,
         subtitle: 'JavaScript',
-        location : 'Amherst, MA, USA',
+        location : 'Chicago, IL, USA',
         date : 'Spring 2020',
         list : [
-          <div><a href='https://ra.rlitb.ml'>Ra</a> is a q-learning agent that lives in the browser.</div>,
-          <div>Over time, it learns to approach the concentric circles in the center of its world.</div>,
-          <div>Training environment and agent were created as the first steps for a series of deep RL agents that learn in the browser.</div>,
-          <div>It's <a href='https://github.com/camilodoa/ra'>open source</a>.</div>
+          <div><a href='https://camilodoa.ml/ra'>Dra</a> is a deep learning agent that lives in the browser.</div>,
+          <div>Over time, it learns to approach the concentric circles in the center of the page with the help of
+          a feedforward neural network.</div>,
+          <div>Network implementation and website were made from scratch with
+          the help of <a href='https://mathjs.org/'>math.js</a> and <a href='http://paperjs.org/'>paper.js</a></div>,
+          <div>It's <a href='https://github.com/camilodoa/dra'>open source</a>.</div>
         ]}
     ]}
   ];
@@ -134,7 +136,6 @@ export default function App() {
           ))}
         </Col>
         <Col className='full pt-2' lg={{span : 9, order : 12}} md={{span : 8, order : 12}} sm={{span : 12, order : 1}} xs={{span : 12, order : 1}}>
-
           <Row className="align my-2">
             <Col sm={12} md={8} lg={8} className='ml-2'>
               <b className='name m-1'>Camilo Ortiz</b>
