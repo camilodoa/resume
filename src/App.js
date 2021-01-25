@@ -19,7 +19,7 @@ export default function App() {
     {title : 'Programming Languages',
     list : ['Python', 'JavaScript', 'Java', 'Clojure', 'Brainf*ck']},
     {title : 'Frameworks',
-    list : ['TF/Keras', 'React', 'Angular', 'Flask', 'Spring Boot']},
+    list : ['TF/Keras', 'PyTorch', 'React', 'Angular', 'Flask', 'Spring Boot']},
     {title : 'Native Languages',
     list : ['English', 'French', 'Spanish']}
   ];
