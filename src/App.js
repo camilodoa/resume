@@ -5,23 +5,43 @@ import MainBlock from './components/MainBlock';
 
 export default function App() {
   const sideData = [
-    {title : 'Contact',
-    list : ['Chicago, IL',
-      <a href='mailto:camilodortiz@gmail.com'>camilodortiz@gmail.com</a>,
-      <a href='https://camilodoa.ml'>camilodoa.ml</a>,
-      <a href='https://www.linkedin.com/in/camilodortiz/'>linkedin.com/in/camilodortiz</a>,
-      <a href='https://github.com/camilodoa'>github.com/camilodoa</a>]},
-    {title : 'Projects',
-    list : [<a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
-      <a href='https://camilodoa.ml/dra'>Dra</a>,
-      <a href='https://github.com/camilodoa/ame'>Automatic Model Evolution</a>
-    ]},
-    {title : 'Programming Languages',
-    list : ['Python', 'JavaScript', 'Java', 'Clojure', 'Brainf*ck']},
-    {title : 'Frameworks',
-    list : ['TF/Keras', 'PyTorch', 'React', 'Angular', 'Flask', 'Spring Boot']},
-    {title : 'Native Languages',
-    list : ['English', 'French', 'Spanish']}
+    {
+      title : 'Contact',
+      list : [
+        'Chicago, IL',
+        <a href='mailto:camilodortiz@gmail.com'>camilodortiz@gmail.com</a>,
+        <a href='https://camilodoa.ml'>camilodoa.ml</a>,
+        <a href='https://www.linkedin.com/in/camilodortiz/'>linkedin.com/in/camilodortiz</a>,
+        <a href='https://github.com/camilodoa'>github.com/camilodoa</a>
+      ]
+    },
+    {
+      title : 'Projects',
+      list : [
+        <a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
+        <a href='https://camilodoa.ml/dra'>Deep Reinforcement Agent</a>,
+        <a href='https://github.com/camilodoa/ame'>Automatic Model Evolution</a>,
+      ]
+    },
+    {
+      title : 'Programming Languages',
+      list : ['Python', 'JavaScript', 'Typescript', 'Java', 'Clojure', 'Brainf*ck']
+    },
+    {
+      title : 'Frameworks',
+      list : ['TensorFlow/Keras', 'PyTorch', 'Pandas', 'Flask', 'React',
+      'Angular', 'Node', 'Spring']
+    },
+    {
+      title : 'Native Languages',
+      list: ['English', 'French', 'Spanish']
+    },
+    {
+      title: 'Skills',
+      list: ['Deep learning', 'Machine learning', 'Evolutionary computation',
+      'Web development', 'Agile methodologies', 'Pair programming', 'Unit testing', 'CI/CD',
+      'Full stack development']
+    }
   ];
 
   const mainData = [
@@ -41,10 +61,24 @@ export default function App() {
     ]},
     {header : 'Experience',
     experiences : [
+      {title : 'Software Engineer',
+      subtitle : 'JPMorgan Chase & Co.',
+      location : 'Chicago, IL',
+      date : 'Summer 2020 - Present',
+      list : [
+        <div>
+          Building and deploying a full stack React/Node application designed to
+          help increase company productivity
+        </div>,
+        <div>
+          Developing and maintaining well-tested Spring Boot micro
+          services
+        </div>
+      ]},
       {title : 'Assistant Researcher',
       subtitle : 'University of Oxford, Department of Computer Science',
       location : 'Oxford, UK',
-      date : 'Summer 2019, Winter 2020',
+      date : 'Summer 2019, Winter 2020, Winter 2021 - Present',
       list : [
         <div>
           Developed a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui/">PDQ web app</a> for
