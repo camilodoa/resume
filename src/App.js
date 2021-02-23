@@ -54,9 +54,9 @@ export default function App() {
       list : [
         <div>Major GPA: 3.96</div>,
         <div>Cumulative GPA: 3.56</div>,
-        <div>Relevant Coursework (CS): Artificial Intelligence, Deep Learning (UPenn), Evolutionary Computation, Algorithms</div>,
+        <div>Relevant Coursework (CS): Artificial Intelligence, Deep Learning (UPenn), Evolutionary Computation, Algorithms, Computer Security, Programming Language Paradigms</div>,
         <div>Relevant Coursework (Math): Multivariable Calculus, Discrete Math, Linear Algebra, Differential Equations</div>,
-        <div>Relevant Coursework (Physics): Modern Physics, Signals and Noise Lab, Statistical Mechanics and Thermodynamics</div>
+        // <div>Relevant Coursework (Physics): Modern Physics, Signals and Noise Lab, Statistical Mechanics and Thermodynamics</div>
       ]}
     ]},
     {header : 'Experience',
@@ -78,10 +78,10 @@ export default function App() {
       {title : 'Assistant Researcher',
       subtitle : 'University of Oxford, Department of Computer Science',
       location : 'Oxford, UK',
-      date : 'Summer 2019, Winter 2020, Winter 2021 - Present',
+      date : 'Summer 2019, Winter 2020, Present',
       list : [
         <div>
-          Developed a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui/">PDQ web app</a> for
+          Developing a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui/">PDQ web app</a> for
           Prof. Michael Benedikt's <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">
           Proof-Driven Query Planning</a> research project.
         </div>,
@@ -90,29 +90,26 @@ export default function App() {
           writing an SQL query, and generating, running,
           and exporting optimal query-plans.
         </div>,
-        <div>It was made with React and Spring Boot.</div>
+        <div>It leverages React and Spring Boot and it's <a href='https://github.com/ProofDrivenQuerying/pdq'>open source</a>.</div>
       ]},
-      // {title : 'Summer Undergraduate Research Fellow',
-      // subtitle : 'Amherst College, Department of Physics',
-      // location : 'Amherst, MA, USA',
-      // date : 'Summer 2018',
-      // list : [
-      //   <div>
-      //     Designed and built a <a href="https://drive.google.com/file/d/1olpZv4bcsH1xi3PuQgEMsFE5hA1PjX7l/view?usp=sharing">
-      //       precise bidirectional current
-      //       control system
-      //     </a> for delicate magnetic field manipulation
-      //     in a Bose-Einstein Condensate machine.
-      //   </div>,
-      //   <div>
-      //       Formed topological excitations in the F=1 ground state of
-      //       Rubidium 87 condensates using the aforementioned current
-      //       control system.
-      //   </div>,
-      //   <div>
-      //       Related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature.
-      //   </div>
-      // ]},
+      {title : 'Summer Undergraduate Research Fellow',
+      subtitle : 'Amherst College, Department of Physics',
+      location : 'Amherst, MA, USA',
+      date : 'Summer 2018',
+      list : [
+        <div>
+          Designed and built a <a href="https://drive.google.com/file/d/1olpZv4bcsH1xi3PuQgEMsFE5hA1PjX7l/view?usp=sharing">
+            precise bidirectional current
+            control system
+          </a> for delicate magnetic field manipulation
+          in a Bose-Einstein Condensate machine.
+        </div>,
+        <div>
+            Formed topological excitations in the F=1 ground state of
+            Rb-87 condensates using the aforementioned current
+            control system (related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature).
+        </div>
+      ]},
       // {title : 'Curatorial Intern',
       // subtitle : 'Mead Art Museum',
       // location : 'Amherst, MA, USA',
