@@ -92,27 +92,27 @@ export default function App() {
         </div>,
         <div>It was made with React and Spring Boot.</div>
       ]},
-      {title : 'Summer Undergraduate Research Fellow',
-      subtitle : 'Amherst College, Department of Physics',
-      location : 'Amherst, MA, USA',
-      date : 'Summer 2018',
-      list : [
-        <div>
-          Designed and built a <a href="https://drive.google.com/file/d/1olpZv4bcsH1xi3PuQgEMsFE5hA1PjX7l/view?usp=sharing">
-            precise bidirectional current
-            control system
-          </a> for delicate magnetic field manipulation
-          in a Bose-Einstein Condensate machine.
-        </div>,
-        <div>
-            Formed topological excitations in the F=1 ground state of
-            Rubidium 87 condensates using the aforementioned current
-            control system.
-        </div>,
-        <div>
-            Related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature.
-        </div>
-      ]},
+      // {title : 'Summer Undergraduate Research Fellow',
+      // subtitle : 'Amherst College, Department of Physics',
+      // location : 'Amherst, MA, USA',
+      // date : 'Summer 2018',
+      // list : [
+      //   <div>
+      //     Designed and built a <a href="https://drive.google.com/file/d/1olpZv4bcsH1xi3PuQgEMsFE5hA1PjX7l/view?usp=sharing">
+      //       precise bidirectional current
+      //       control system
+      //     </a> for delicate magnetic field manipulation
+      //     in a Bose-Einstein Condensate machine.
+      //   </div>,
+      //   <div>
+      //       Formed topological excitations in the F=1 ground state of
+      //       Rubidium 87 condensates using the aforementioned current
+      //       control system.
+      //   </div>,
+      //   <div>
+      //       Related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature.
+      //   </div>
+      // ]},
       // {title : 'Curatorial Intern',
       // subtitle : 'Mead Art Museum',
       // location : 'Amherst, MA, USA',
