@@ -68,11 +68,11 @@ export default function App() {
       list : [
         <div>
           Building and deploying a full stack React/Node application designed to
-          help increase company productivity
+          help increase company productivity.
         </div>,
         <div>
           Developing and maintaining well-tested Spring Boot micro
-          services
+          services.
         </div>
       ]},
       {title : 'Assistant Researcher',
