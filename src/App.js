@@ -25,12 +25,12 @@ export default function App() {
     },
     {
       title : 'Programming Languages',
-      list : ['Python', 'JavaScript', 'Typescript', 'Java', 'Clojure', 'Brainf*ck']
+      list : ['Python', 'JavaScript', 'Java', 'Clojure', 'Brainf*ck']
     },
     {
       title : 'Frameworks',
       list : ['TensorFlow/Keras', 'PyTorch', 'Pandas', 'Flask', 'React',
-      'Angular', 'Node', 'Spring']
+      'Node', 'Spring']
     },
     {
       title : 'Native Languages',
