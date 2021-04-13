@@ -67,13 +67,16 @@ export default function App() {
       date : 'Summer 2020 - Present',
       list : [
         <div>
-          Building and deploying a full stack React/Node application designed to
-          help increase company productivity.
+          Working on an exciting new application with React and TypeScript.
         </div>,
         <div>
-          Developing and maintaining well-tested Spring Boot micro
+          Developing and maintaining well-tested SpringBoot micro
           services.
-        </div>
+        </div>,
+        <div>
+          Built a full stack React and Node application that was used to create
+          300+ service requests within the first month of deployment.
+        </div>,
       ]},
       {title : 'Assistant Researcher',
       subtitle : 'University of Oxford, Department of Computer Science',
