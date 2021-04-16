@@ -67,7 +67,8 @@ export default function App() {
       date : 'Summer 2020 - Present',
       list : [
         <div>
-          Working on an exciting new application with React and TypeScript.
+          Leading UI development on an exciting new application that leverages
+          React and TypeScript.
         </div>,
         <div>
           Developing and maintaining well-tested SpringBoot micro
