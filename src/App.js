@@ -125,9 +125,11 @@ export default function App() {
             on <a href='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</a>.
         </div>,
         <div>
-          Researched and wrote labels for more than twenty works shown at
-          the exhibition, which opened both at the Berkeley
-          Art Museum and Pacific Film Archive and at
+          Researched and wrote labels for twenty works shown at
+          the exhibition, which opened at the Berkeley
+          Art Museum and Pacific Film Archive,
+          at the Zimmerli Art Museum,
+          and at
           the Mead Art Museum.
         </div>,
         <div>
@@ -158,8 +160,7 @@ export default function App() {
           <div>Over time, it learns to approach the concentric circles in the center of the page with the help of
           a feedforward neural network.</div>,
           <div>Network implementation and website were made from scratch with
-          the help of <a href='https://mathjs.org/'>math.js</a> and <a href='http://paperjs.org/'>paper.js</a></div>,
-          <div>It's <a href='https://github.com/camilodoa/dra'>open source</a>.</div>
+          the help of <a href='https://mathjs.org/'>math.js</a> and <a href='http://paperjs.org/'>paper.js</a>, and it's <a href='https://github.com/camilodoa/dra'>open source</a>.</div>,
         ]}
     ]}
   ];
