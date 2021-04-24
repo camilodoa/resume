@@ -21,15 +21,17 @@ export default function App() {
         <a href='https://ai-melts-ice.ml'>AI Melts ICE</a>,
         <a href='https://camilodoa.ml/dra'>Deep Reinforcement Agent</a>,
         <a href='https://github.com/camilodoa/ame'>Automatic Model Evolution</a>,
+        <a href='https://github.com/camilodoa/cis-522'>Hate speech detection</a>,
+        <a href='https://github.com/camilodoa/deig'>Deep Evolutionary Image Generation</a>
       ]
     },
     {
       title : 'Programming Languages',
-      list : ['Python', 'JavaScript', 'Java', 'Clojure', 'Brainf*ck']
+      list : ['Python', 'JavaScript', 'Java', 'Clojure']
     },
     {
       title : 'Frameworks',
-      list : ['TensorFlow/Keras', 'PyTorch', 'Pandas', 'Flask', 'React',
+      list : ['Keras', 'PyTorch', 'Pandas', 'Flask', 'React',
       'Node', 'Spring']
     },
     {
@@ -38,9 +40,8 @@ export default function App() {
     },
     {
       title: 'Skills',
-      list: ['Deep learning', 'Machine learning', 'Evolutionary computation',
-      'Web development', 'Agile methodologies', 'Pair programming', 'Unit testing', 'CI/CD',
-      'Full stack development']
+      list: ['Reinforcement learning', 'Deep learning', 'Evolutionary computation',
+      'Web development', 'Unit testing', 'Full stack development']
     }
   ];
 
@@ -96,45 +97,46 @@ export default function App() {
         </div>,
         <div>It leverages React and Spring Boot and it's <a href='https://github.com/ProofDrivenQuerying/pdq'>open source</a>.</div>
       ]},
-      {title : 'Summer Undergraduate Research Fellow',
-      subtitle : 'Amherst College, Department of Physics',
-      location : 'Amherst, MA, USA',
-      date : 'Summer 2018',
-      list : [
-        <div>
-          Designed and built a <a href="https://drive.google.com/file/d/1olpZv4bcsH1xi3PuQgEMsFE5hA1PjX7l/view?usp=sharing">
-            precise bidirectional current
-            control system
-          </a> for delicate magnetic field manipulation
-          in a Bose-Einstein Condensate machine.
-        </div>,
-        <div>
-            Formed topological excitations in the F=1 ground state of
-            Rb-87 condensates using the aforementioned current
-            control system (related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature).
-        </div>
-      ]},
-      // {title : 'Curatorial Intern',
-      // subtitle : 'Mead Art Museum',
+      // {title : 'Summer Undergraduate Research Fellow',
+      // subtitle : 'Amherst College, Department of Physics',
       // location : 'Amherst, MA, USA',
       // date : 'Summer 2018',
       // list : [
       //   <div>
-      //       Collaborated with Mead Art Museum Curator Vanja Malloy
-      //       on <a href='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</a>.
+      //     Designed and built a <a href="https://drive.google.com/file/d/1olpZv4bcsH1xi3PuQgEMsFE5hA1PjX7l/view?usp=sharing">
+      //       precise bidirectional current
+      //       control system
+      //     </a> for delicate magnetic field manipulation
+      //     in a Bose-Einstein Condensate machine.
       //   </div>,
       //   <div>
-      //     Researched and wrote labels for more than twenty works shown at
-      //     the exhibition, which opened both at the Berkeley
-      //     Art Museum and Pacific Film Archive and at
-      //     the Mead Art Museum.
-      //   </div>,
-      //   <div>
-      //     <a href="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/?fbclid=IwAR1J25yxGDn2EDGLJJWDLUHb6tJLHjm2PSwitp_lV_VEoD2C1PhFMwzcMcI#34d794b27b0f">
-      //       Article
-      //     </a> written by Jonathon Keats for Forbes on the exhibition.
+      //       Formed topological excitations in the F=1 ground state of
+      //       Rb-87 condensates using the aforementioned current
+      //       control system (related <a href="https://www.nature.com/articles/nphys3624">paper</a> on these excitations published in Nature).
       //   </div>
-      // ]}
+      // ]},
+      {title : 'Curatorial Intern',
+      subtitle : 'Mead Art Museum',
+      location : 'Amherst, MA, USA',
+      date : 'Summer 2018',
+      list : [
+        <div>
+            Collaborated with Mead Art Museum Curator Vanja Malloy
+            on <a href='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</a>.
+        </div>,
+        <div>
+          Researched and wrote labels for more than twenty works shown at
+          the exhibition, which opened both at the Berkeley
+          Art Museum and Pacific Film Archive and at
+          the Mead Art Museum.
+        </div>,
+        <div>
+        Artist and critic Jonathon Keats wrote
+        an <a href="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/?fbclid=IwAR1J25yxGDn2EDGLJJWDLUHb6tJLHjm2PSwitp_lV_VEoD2C1PhFMwzcMcI#34d794b27b0f">
+            article
+          </a> for Forbes on the exhibition.
+        </div>
+      ]}
     ]},
     {header : 'Projects',
     experiences : [
@@ -145,14 +147,14 @@ export default function App() {
         list : [
           <div><a href='https://ai-melts-ice.ml'>AI Melts ICE</a> is a prediction tool for ICE arrests in the US.</div>,
           <div>These predictions are generated by an LSTM neural network trained on data (2014 - 2018) from Syracuse's <a href="https://trac.syr.edu/phptools/immigration/arrest/about_data.html">TRAC web API</a>.</div>,
-          <div>It's <a href='https://github.com/camilodoa/ai-melts-ice'>open source</a>.</div>
+          <div>It was made with React, Flask, and Keras and it's <a href='https://github.com/camilodoa/ai-melts-ice'>open source</a>.</div>
         ]},
         {title : <a href='https://camilodoa.ml/dra'>Dra</a>,
         subtitle: 'JavaScript',
         location : 'Chicago, IL, USA',
-        date : 'Spring 2020 - Present',
+        date : 'Spring 2020 - Fall 2020',
         list : [
-          <div><a href='https://camilodoa.ml/ra'>Dra</a> is a deep reinforcement agent that lives in the browser.</div>,
+          <div><a href='https://camilodoa.ml/ra'>Dra</a> is a deep q-network agent that lives in the browser.</div>,
           <div>Over time, it learns to approach the concentric circles in the center of the page with the help of
           a feedforward neural network.</div>,
           <div>Network implementation and website were made from scratch with
