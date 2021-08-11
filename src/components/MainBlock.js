@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 export default function MainBlock ({header, experiences}) {
     return (
-        <Container fluid>
+        <Container fluid className="my-3">
             <b className='header'>{header}</b>
             {experiences.map((elem, index) => (
                 <MainSubBlock title={elem['title']} subtitle={elem['subtitle']} location={elem['location']} date={elem['date']} list={elem['list']} key={'MainSubBlock' + index}/>
