@@ -117,7 +117,7 @@ export const mainData = [
     },
     {
       title : 'Mentee',
-      subtitle : 'LXAI',
+      subtitle : 'LatinX in AI (LXAI)',
       location : 'Chicago, IL',
       date : 'Spring 2021 - Summer 2021',
       list : [
