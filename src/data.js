@@ -27,7 +27,7 @@ export const sideData = [
   {
     title : 'Frameworks',
     list : [
-      'React, Jest, Node','Keras, Pytorch, Pandas, Flask',
+      'React, Jest, Node','Keras, PyTorch, Pandas, Flask',
       'Spring, JUnit'
     ]
   },
