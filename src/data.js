@@ -48,7 +48,7 @@ export const sideData = [
   {
     title: "Languages under development",
     list: [
-      'Clojure', 'Prolog', 'Haskell', 'PHP', 'Brainf*ck'
+      'Clojure', 'PHP', 'Haskell', 'Prolog', 'Brainf*ck'
     ]
   },
   {
