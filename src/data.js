@@ -46,18 +46,18 @@ export const sideData = [
     ]
   },
   {
+    title: "Languages under development",
+    list: [
+      'Clojure', 'Prolog', 'Haskell', 'PHP', 'Brainf*ck'
+    ]
+  },
+  {
     title: 'Interests',
     list: [
       'Contemporary art', 'Magic the Gathering', 'Computational neuroscience',
       'Competitive Super Smash Bros', 'Architecture'
     ]
   },
-  {
-    title: "Novice programming languages",
-    list: [
-      'Clojure', 'Prolog', 'Haskell', 'PHP', 'Brainf*ck'
-    ]
-  }
 ];
 
 export const mainData = [
