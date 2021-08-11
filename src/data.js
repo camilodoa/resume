@@ -46,9 +46,16 @@ export const sideData = [
     ]
   },
   {
-    title: 'Alternative programming languages',
+    title: 'Interests',
     list: [
-      'Clojure', 'Brainf*ck', 'Prolog', 'Haskell', 'Assembly'
+      'Contemporary art', 'Magic the Gathering', 'Computational neuroscience',
+      'Competitive Super Smash Bros', 'Architecture'
+    ]
+  },
+  {
+    title: "Novice programming languages",
+    list: [
+      'Clojure', 'Prolog', 'Haskell', 'PHP', 'Brainf*ck'
     ]
   }
 ];
@@ -67,7 +74,7 @@ export const mainData = [
         </div>,
         <div>
           • Activities and societies: Marsh Arts House (president), Eletronics
-          Club, WAMH 89.3 FM co-host
+          Club, WAMH 89.3FM host
         </div>
       ]}
     ]
@@ -112,15 +119,28 @@ export const mainData = [
       title : 'Mentee',
       subtitle : 'LXAI',
       location : 'Chicago, IL',
-      date : 'Spring 2021',
+      date : 'Spring 2021 - Summer 2021',
       list : [
         <div>
           • Conducted preliminary research on the benefits of training policy Spiking
-          Neural Networks (SNNs) to solve OpenAI gym's atari games under the mentorship
+          Neural Networks (SNNs) to solve OpenAI's Breakout under the mentorship
           of Pablo Hernandez-Leal.
         </div>,
         <div>
           • The project is still active and it's <a href='https://github.com/camilodoa/lxai'>open source</a>.
+        </div>
+      ]
+    },
+    {
+      title : 'Volunteer',
+      subtitle : 'PODER',
+      location : 'Chicago, IL',
+      date : 'Fall 2020 - Summer 2021',
+      list : [
+        <div>
+          • Redesigned and reimplemented <a href='https://www.poderworks.org/'>PODER</a>'s student dashboard to have a dynamic onboarding
+          experience, display grades, and show the student's progress in the
+          program
         </div>
       ]
     },
@@ -203,24 +223,8 @@ export const mainData = [
           </div>,
           <div>
             • Network implementation and environment were written
-            with <a href='https://mathjs.org/'>math.js</a> and <a href='http://paperjs.org/'>paper.js</a>, and
-            it's <a href='https://github.com/camilodoa/dra'>open source</a>.
-          </div>,
-        ]
-      },
-      {
-        title : <a href='https://camilodoa.ml/ame'>AME</a>,
-        subtitle: 'Python',
-        location : 'Philadelphia, PA, USA',
-        date : 'Summer 2020',
-        list : [
-          <div>
-            • <a href='https://camilodoa.ml/ame'>AME</a> (Automatic Model
-            Evolution) evolves optimal neural network
-            hyperparameters with a genetic algorithm.
-          </div>,
-          <div>
-            • It leverages Keras and it's <a href='https://github.com/camilodoa/ame'>open source</a>.
+            with <a href='https://mathjs.org/'>math.js</a> and <a href='http://paperjs.org/'>paper.js</a>.
+            It's <a href='https://github.com/camilodoa/dra'>open source</a>.
           </div>,
         ]
       }]
