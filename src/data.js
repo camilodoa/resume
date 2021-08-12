@@ -122,8 +122,8 @@ export const mainData = [
       date : 'Spring 2021 - Summer 2021',
       list : [
         <div>
-          • Conducted preliminary research on the benefits of training policy Spiking
-          Neural Networks (SNNs) to solve OpenAI's Breakout under the mentorship
+          • Conducted preliminary research on training Spiking
+          Neural Networks (SNNs) to solve OpenAI's Breakout environment under the mentorship
           of Pablo Hernandez-Leal.
         </div>,
         <div>
