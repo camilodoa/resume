@@ -92,8 +92,8 @@ export const mainData = [
           React and TypeScript.
         </div>,
         <div>
-          • Built an internal full-stack React and Node application that was used to create
-          300+ service requests within the first two months of deployment.
+          • Built a full stack React and Node application that was used to
+          create 800+ service requests within the first six months of deployment.
         </div>,
       ]
     },
