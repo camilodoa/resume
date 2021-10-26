@@ -44,20 +44,7 @@ export const sideData = [
       'Evolutionary Computation', 'Algorithms', 'Computer Security',
       'Discrete Math', 'Linear Algebra', 'Differential Equations'
     ]
-  },
-  {
-    title: "Languages under development",
-    list: [
-      'Clojure', 'PHP', 'Haskell', 'Prolog', 'Brainf*ck'
-    ]
-  },
-  {
-    title: 'Interests',
-    list: [
-      'Contemporary art', 'Magic the Gathering', 'Computational neuroscience',
-      'Competitive Super Smash Bros', 'Architecture'
-    ]
-  },
+  }
 ];
 
 export const mainData = [
