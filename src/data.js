@@ -57,7 +57,7 @@ export const mainData = [
       date : 'Class of 2020',
       list : [
         <div>
-          • Major GPA: 3.96, Cumulative GPA: 3.56
+          • Major GPA: 3.96
         </div>,
         <div>
           • Activities and societies: Marsh Arts House (president), Eletronics
@@ -69,6 +69,22 @@ export const mainData = [
   {
     header : 'Experience',
     experiences : [
+      {
+        title : 'NeurIPS 2021 Mentee',
+        subtitle : 'LatinX in AI (LXAI)',
+        location : 'Chicago, IL',
+        date : 'Spring 2021, Present',
+        list : [
+          <div>
+            • Conducting research on training Spiking
+            Neural Networks (SNNs) to solve OpenAI's Breakout environment under the mentorship
+            of Pablo Hernandez-Leal and Rohith Kuditipudi.
+          </div>,
+          <div>
+            • The project is <a href='https://github.com/camilodoa/lxai'>open source</a>.
+          </div>
+        ]
+      },
       {title : 'Software Engineer',
       subtitle : 'JPMorgan Chase & Co.',
       location : 'Chicago, IL',
@@ -91,7 +107,7 @@ export const mainData = [
       date : 'Summer 2019, Winter 2020, Summer 2021',
       list : [
         <div>
-          • Developing a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui/">web application</a> for
+          • Developed a full-stack <a href="http://pdq-webapp.cs.ox.ac.uk/react-ui/">web application</a> for
           Prof. Michael Benedikt's <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">
           Proof-Driven Query Planning</a> research project.
         </div>,
@@ -102,35 +118,19 @@ export const mainData = [
         <div>• It leverages React and Spring Boot and it's <a href='https://github.com/ProofDrivenQuerying/pdq'>open source</a>.</div>
       ]
     },
-    {
-      title : 'Mentee',
-      subtitle : 'LatinX in AI (LXAI)',
-      location : 'Chicago, IL',
-      date : 'Spring 2021 - Summer 2021',
-      list : [
-        <div>
-          • Conducted preliminary research on training Spiking
-          Neural Networks (SNNs) to solve OpenAI's Breakout environment under the mentorship
-          of Pablo Hernandez-Leal.
-        </div>,
-        <div>
-          • The project is still active and it's <a href='https://github.com/camilodoa/lxai'>open source</a>.
-        </div>
-      ]
-    },
-    {
-      title : 'Volunteer',
-      subtitle : 'PODER',
-      location : 'Chicago, IL',
-      date : 'Fall 2020 - Summer 2021',
-      list : [
-        <div>
-          • Redesigned and reimplemented <a href='https://www.poderworks.org/'>PODER</a>'s student dashboard to have a dynamic onboarding
-          experience, display grades, and show the student's progress in the
-          program
-        </div>
-      ]
-    },
+    // {
+    //   title : 'Volunteer',
+    //   subtitle : 'PODER',
+    //   location : 'Chicago, IL',
+    //   date : 'Fall 2020 - Summer 2021',
+    //   list : [
+    //     <div>
+    //       • Redesigned and reimplemented <a href='https://www.poderworks.org/'>PODER</a>'s student dashboard to have a dynamic onboarding
+    //       experience, display grades, and show the student's progress in the
+    //       program
+    //     </div>
+    //   ]
+    // },
     // {title : 'Summer Undergraduate Research Fellow',
     // subtitle : 'Amherst College, Department of Physics',
     // location : 'Amherst, MA, USA',
