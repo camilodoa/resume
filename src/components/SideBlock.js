@@ -1,14 +1,25 @@
 import React from 'react';
+import styled from 'styled-components';
 
-export default function SideBlock ({title, list}) {
-    return (
-        <div className="my-2">
-            <b>{title}</b>
-            <ul>
-            {list.map((item, index) => (
-                <li key={'SideBlockItem' + index}>{item}</li>
-            ))}
-            </ul>
-        </div>
-    )
-}
+const SideBlockContainer = styled.div`
+  margin: .5rem 0px;
+`;
+
+const SideBlockListItem = styled.li`
+  list-style-type: none!important;
+`;
+
+const SideBlock = ({ title, list }) => {
+  return (
+    <SideBlockContainer>
+      <b>{title}</b>
+      <ul>
+      {list.map((item, index) => (
+        <SideBlockListItem key={'SideBlockItem' + index}>{item}</SideBlockListItem>
+      ))}
+      </ul>
+    </SideBlockContainer>
+  );
+};
+
+export default SideBlock;
