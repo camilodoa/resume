@@ -7,7 +7,7 @@ export const sideData = [
     list : [
       'Chicago, IL',
       <Link src='mailto:camilodortiz@gmail.com'>camilodortiz@gmail.com</Link>,
-      <Link src='https://camilodoa.ml'>camilodoa.ml</Link>,
+      <Link src='https://camilodoa.github.io'>camilodoa.github.io</Link>,
       <Link src='https://www.linkedin.com/in/camilodortiz/'>linkedin.com/in/camilodortiz</Link>,
       <Link src='https://github.com/camilodoa'>github.com/camilodoa</Link>
     ]
@@ -60,10 +60,10 @@ export const mainData = [
         <div>
           Major GPA: 3.96
         </div>,
-        <div>
-          Activities and societies: Marsh Arts House (president), Eletronics
-          Club, WAMH 89.3FM host
-        </div>
+        // <div>
+        //   Activities and societies: Marsh Arts House (president), Eletronics
+        //   Club, WAMH 89.3FM host
+        // </div>
       ]}
     ]
   },
@@ -71,10 +71,21 @@ export const mainData = [
     header : 'Experience',
     experiences : [
       {
+        title : 'Software Engineer',
+        subtitle : 'Google',
+        location : 'Chicago, IL',
+        date : 'Winter 2022 - Present',
+        list : [
+          <div>
+            Working on <Link src="https://pay.google.com">pay.google.com</Link> :-)
+          </div>
+        ]
+      },
+      {
         title : 'NeurIPS 2021 Mentee',
         subtitle : 'LatinX in AI (LXAI)',
         location : 'Chicago, IL',
-        date : 'Spring 2021, Present',
+        date : 'Spring 2021, Fall 2021',
         list : [
           <div>
             Conducting research on training Spiking
@@ -89,7 +100,7 @@ export const mainData = [
       {title : 'Software Engineer',
       subtitle : 'JPMorgan Chase & Co.',
       location : 'Chicago, IL',
-      date : 'Summer 2020 - Present',
+      date : 'Summer 2020 - Winter 2022',
       list : [
         <div>
           Leading UI development on an exciting new onboarding app that leverages
@@ -179,13 +190,13 @@ export const mainData = [
     header : 'Projects',
     experiences : [
       {
-        title : <Link src='https://ai-melts-ice.ml'>AI Melts ICE</Link>,
+        title : <Link src='https://camilodoa.github.io/ai-melts-ice'>AI Melts ICE</Link>,
         subtitle : 'Python and JavaScript',
         location : 'Oxford, UK',
         date : 'Winter 2020 - Winter 2021',
         list : [
           <div>
-            <Link src='https://ai-melts-ice.ml'>AI Melts ICE</Link> documents and
+            <Link src='https://camilodoa.github.io/ai-melts-ice'>AI Melts ICE</Link> documents and
             predicts county-specific ICE arrests in the US.
           </div>,
           <div>
@@ -199,13 +210,13 @@ export const mainData = [
         ]
       },
       {
-        title : <Link src='https://camilodoa.ml/dra'>Dra</Link>,
+        title : <Link src='https://camilodoa.github.io/dra'>Dra</Link>,
         subtitle: 'JavaScript',
         location : 'Chicago, IL, USA',
         date : 'Spring 2020 - Fall 2020',
         list : [
           <div>
-            <Link src='https://camilodoa.ml/dra'>Dra</Link> is a Deep Q-Network agent
+            <Link src='https://camilodoa.github.io/dra'>Dra</Link> is a Deep Q-Network agent
             that lives in the browser and learns to approach the goal in the
             center of the page.
           </div>,
