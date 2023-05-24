@@ -88,7 +88,7 @@ export const mainData = [
         date : 'Spring 2021, Fall 2021',
         list : [
           <div>
-            Conducting research on training Spiking
+            Conducted research on training Spiking
             Neural Networks (SNNs) to solve OpenAI's Breakout environment under the mentorship
             of Pablo Hernandez-Leal and Rohith Kuditipudi.
           </div>,
@@ -103,7 +103,7 @@ export const mainData = [
       date : 'Summer 2020 - Winter 2022',
       list : [
         <div>
-          Lead UI development on an exciting new onboarding app that leveraged
+          Led UI development on an exciting new onboarding app that leveraged
           React and TypeScript.
         </div>,
         <div>
