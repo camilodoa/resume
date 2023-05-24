@@ -103,7 +103,7 @@ export const mainData = [
       date : 'Summer 2020 - Winter 2022',
       list : [
         <div>
-          Leading UI development on an exciting new onboarding app that leverages
+          Lead UI development on an exciting new onboarding app that leveraged
           React and TypeScript.
         </div>,
         <div>
