@@ -16,19 +16,26 @@ export const sideData = [
     title: 'Skills',
     list: [
       'Web development', 'Reinforcement learning', 'Deep learning',
-      'Evolutionary computation', 'Full stack development', 'Unit testing'
+      'Evolutionary computation', 'Full stack development',
     ]
   },
   {
     title : 'Programming languages',
     list : [
-      'JavaScript / TypeScript', 'Python', 'Java'
+      'Java', 'JavaScript / TypeScript', 'Python', 
     ]
   },
   {
-    title : 'Frameworks',
+    title : 'Google Frameworks',
     list : [
-      'React, Jest, Node','Keras, PyTorch, Pandas, Flask',
+      'Boq, Wiz, Soy',
+      '(Payments) Coffee, Web5, O1, Node API, Data API',
+    ]
+  },
+  {
+    title : 'Rest-of-the-world Frameworks',
+    list : [
+      'React, Node','Keras, PyTorch, Pandas, Flask',
       'Spring, JUnit'
     ]
   },
@@ -50,86 +57,90 @@ export const sideData = [
 
 export const mainData = [
   {
-    header : 'Education',
-    experiences : [
-      {title : 'Amherst College',
-      subtitle : 'Bachelor of Arts in Computer Science',
-      location : 'Amherst, MA, USA',
-      date : 'Class of 2020',
-      list : [
-        <div>
-          Major GPA: 3.96
-        </div>,
-        // <div>
-        //   Activities and societies: Marsh Arts House (president), Eletronics
-        //   Club, WAMH 89.3FM host
-        // </div>
-      ]}
-    ]
-  },
-  {
     header : 'Experience',
     experiences : [
       {
-        title : 'Software Engineer',
-        subtitle : 'Google',
-        location : 'Chicago, IL',
-        date : 'Winter 2022 - Present',
+        title : 'L4 Software Engineer',
+        subtitle : 'Google, Payments Portals',
+        location : 'Cambridge, MA',
+        date : 'Spring 2024 - Present',
         list : [
           <div>
-            Working on <Link src="https://pay.google.com">pay.google.com</Link> :-)
+            Designed and implemented auth changes on <Link src="https://payments.google.com<">payments.google.com</Link> to support the Google Wallet for kids launch
           </div>
         ]
       },
       {
-        title : 'NeurIPS 2021 Mentee',
-        subtitle : 'LatinX in AI (LXAI)',
+        title : 'L3 Software Engineer',
+        subtitle : 'Google, Payments Portals',
         location : 'Chicago, IL',
-        date : 'Spring 2021, Fall 2021',
+        date : 'Winter 2022 - Spring 2024',
         list : [
           <div>
-            Conducted research on training Spiking
-            Neural Networks (SNNs) to solve OpenAI's Breakout environment under the mentorship
-            of Pablo Hernandez-Leal and Rohith Kuditipudi.
+            Created and launched the Address Detail page in the <Link src="https://myaccount.google.com/addressbook">MyAccount Address Book</Link> 
           </div>,
           <div>
-            The project is <Link src='https://github.com/camilodoa/lxai'>open source</Link>.
+            Payments lead on the AdWords Legal Entity Switch project (CBT Phase 3)
+          </div>,
+          <div>
+            Payments lead on the AdWords Charging Strategy Switch project (CBT Phase 2)
+          </div>,
+          <div>
+            Supporting the Payments Address Component with bugfixes and feature implementations
           </div>
         ]
       },
-      {title : 'Software Engineer',
-      subtitle : 'JPMorgan Chase & Co.',
-      location : 'Chicago, IL',
-      date : 'Summer 2020 - Winter 2022',
-      list : [
-        <div>
-          Led UI development on an exciting new onboarding app that leveraged
-          React and TypeScript.
-        </div>,
-        <div>
-          Built a full stack React and Node application that was used to
-          create 800+ service requests within the first six months of deployment.
-        </div>,
-      ]
-    },
-    {
-      title : 'Assistant Researcher',
-      subtitle : 'University of Oxford, Department of Computer Science',
-      location : 'Oxford, UK',
-      date : 'Summer 2019, Winter 2020, Summer 2021',
-      list : [
-        <div>
-          Developed a full-stack <Link src="http://pdq-webapp.cs.ox.ac.uk/react-ui/">web application</Link> for
-          Prof. Michael Benedikt's <Link src="http://www.cs.ox.ac.uk/projects/pdq/home.html">
-          Proof-Driven Query Planning</Link> research project.
-        </div>,
-        <div>
-          App facilitates selecting a datasource, writing an SQL query, and
-          generating, running, and exporting optimal query-plans.
-        </div>,
-        <div>It leverages React and Spring Boot and it's <Link src='https://github.com/ProofDrivenQuerying/pdq'>open source</Link>.</div>
-      ]
-    },
+      // {
+      //   title : 'NeurIPS 2021 Mentee',
+      //   subtitle : 'LatinX in AI (LXAI)',
+      //   location : 'Chicago, IL',
+      //   date : 'Spring 2021, Fall 2021',
+      //   list : [
+      //     <div>
+      //       Conducted research on training Spiking
+      //       Neural Networks (SNNs) to solve OpenAI's Breakout environment under the mentorship
+      //       of Pablo Hernandez-Leal and Rohith Kuditipudi.
+      //     </div>,
+      //     <div>
+      //       The project is <Link src='https://github.com/camilodoa/lxai'>open source</Link>.
+      //     </div>
+      //   ]
+      // },
+      {
+        title : 'Software Engineer',
+        subtitle : 'JPMorgan Chase & Co.',
+        location : 'Chicago, IL',
+        date : 'Summer 2020 - Winter 2022',
+        list : [
+          <div>
+            Led UI development on an exciting new onboarding app that leveraged
+            React and TypeScript.
+          </div>,
+          <div>
+            Built a full stack React and Node application that was used to
+            create 800+ service requests within the first six months of deployment.
+          </div>,
+        ]
+      },
+      {
+        title : 'Assistant Researcher',
+        subtitle : 'University of Oxford, Department of Computer Science',
+        location : 'Oxford, UK',
+        date : 'Summer 2019, Winter 2020, Summer 2021',
+        list : [
+          <div>
+            Developed a full-stack <Link src="http://pdq-webapp.cs.ox.ac.uk/react-ui/">web application</Link> for
+            Prof. Michael Benedikt's <Link src="http://www.cs.ox.ac.uk/projects/pdq/home.html">
+            Proof-Driven Query Planning</Link> research project.
+          </div>,
+          <div>
+            App facilitates selecting a datasource, writing an SQL query, and
+            generating, running, and exporting optimal query-plans.
+          </div>,
+          <div>It leverages React and Spring Boot and it's <Link src='https://github.com/ProofDrivenQuerying/pdq'>open source</Link>.</div>,
+          <div>Published in <Link src="https://sigmodrecord.org/publications/sigmodRecord/2212/pdfs/05_Systems_Benedikt.pdf">SIGMOD</Link> in 2022</div>
+        ]
+      },
     // {
     //   title : 'Volunteer',
     //   subtitle : 'PODER',
@@ -161,30 +172,32 @@ export const mainData = [
     //       control system (related <Link src="https://www.nature.com/articles/nphys3624">paper</Link> on these excitations published in Nature).
     //   </div>
     // ]},
-    // {title : 'Curatorial Intern',
-    // subtitle : 'Mead Art Museum',
-    // location : 'Amherst, MA, USA',
-    // date : 'Summer 2018',
-    // list : [
-    //   <div>
-    //       Collaborated with Mead Art Museum Curator Vanja Malloy
-    //       on <Link src='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</Link>.
-    //   </div>,
-    //   <div>
-    //     Researched and wrote labels for twenty works shown at
-    //     the exhibition, which opened at the Berkeley
-    //     Art Museum and Pacific Film Archive,
-    //     at the Zimmerli Art Museum,
-    //     and at
-    //     the Mead Art Museum.
-    //   </div>,
-    //   <div>
-    //   Artist and critic Jonathon Keats wrote
-    //   an <Link src="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/?fbclid=IwAR1J25yxGDn2EDGLJJWDLUHb6tJLHjm2PSwitp_lV_VEoD2C1PhFMwzcMcI#34d794b27b0f">
-    //       article
-    //     </Link> for Forbes on the exhibition.
-    //   </div>
-    // ]}
+    {
+      title : 'Curatorial Intern',
+      subtitle : 'Mead Art Museum',
+      location : 'Amherst, MA, USA',
+      date : 'Summer 2018',
+      list : [
+        <div>
+            Collaborated with Mead Art Museum Curator Vanja Malloy
+            on <Link src='https://www.amherst.edu/museums/mead/exhibitions/2019/Dimensionism'>Dimensionism: Modern Art in the Age of Einstein</Link>.
+        </div>,
+        <div>
+          Researched and wrote labels for twenty works shown at
+          the exhibition, which opened at the Berkeley
+          Art Museum and Pacific Film Archive,
+          at the Zimmerli Art Museum,
+          and at
+          the Mead Art Museum.
+        </div>,
+        <div>
+        Artist and critic Jonathon Keats wrote
+        an <Link src="https://www.forbes.com/sites/jonathonkeats/2019/02/28/dimensionism/?fbclid=IwAR1J25yxGDn2EDGLJJWDLUHb6tJLHjm2PSwitp_lV_VEoD2C1PhFMwzcMcI#34d794b27b0f">
+            article
+          </Link> for Forbes on the exhibition.
+        </div>
+      ]
+    }
   ]},
   {
     header : 'Projects',
@@ -227,5 +240,23 @@ export const mainData = [
           </div>,
         ]
       }]
-    }
+    },
+    {
+    header : 'Education',
+    experiences : [
+      {title : 'Amherst College',
+      subtitle : 'Bachelor of Arts in Computer Science',
+      location : 'Amherst, MA, USA',
+      date : 'Class of 2020',
+      list : [
+        <div>
+          Major GPA: 3.96/4
+        </div>,
+        <div>
+          Activities and societies: Marsh Arts House (president), Electronics
+          Club, WAMH 89.3FM host
+        </div>
+      ]}
+    ]
+  }
 ];
